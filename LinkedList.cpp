@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 
 using namespace std;
@@ -79,17 +78,3 @@ struct List
 	}
 
 };
-
-int main() {
-
-	List myList;
-	myList.insertAtStart(1);
-	myList.insertAtStart(2);
-	myList.insertAtEnd(3);
-	myList.popTop();
-	myList.popBack();
-	myList.print();
-
-	system("pause");
-}
-*/
