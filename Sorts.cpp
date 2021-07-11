@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 
 using namespace std;
@@ -100,17 +99,3 @@ bool binarySearch(int* arr, int start, int end, int k) {
 	if (arr[(start + end) / 2] > k)return binarySearch(arr, start, (start + end) / 2 - 1, k);
 	if (arr[(start + end) / 2] < k)return binarySearch(arr, (start + end) / 2 + 1, end, k);
 }
-
-int main() {
-
-	
-	int arr[4] = { 1,3,2,0 };
-	quickSort(arr,0, 3);
-	for (int i = 0;i < 4;i++)cout << arr[i] << " ";
-	cout << endl;
-	for (int i = 0;i < 5;i++) {
-		cout << i << " : " << binarySearch(arr, 0, 3, i) << endl;
-	}
-	system("pause");
-}
-*/
