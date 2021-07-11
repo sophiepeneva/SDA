@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 
 using namespace std;
@@ -145,25 +144,3 @@ struct Tree
 		cout << curr->data << " ";
 	}
 };
-
-
-int main() {
-
-	Tree tree;
-	tree.insert(4);
-	tree.insert(2);
-	tree.insert(6);
-	tree.printPreorder();
-	cout << endl;
-	tree.printInorder();
-	cout << endl;
-	tree.printPostorder();
-	cout << endl;
-	cout << tree.getMin() << endl;
-	cout << tree.getMax() << endl;
-	for (int i = 0;i < 7;i++) {
-		cout << i << " :" << tree.find(i) << endl;
-	}
-	system("pause");
-}
-*/
